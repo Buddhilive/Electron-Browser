@@ -1,0 +1,47 @@
+
+html, body {
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+}
+
+.pihatu-grid {
+    width: 100%;
+}
+
+#omnibox1 {
+    background-color: white;
+    border-radius: 25px;
+}
+
+.button-size {
+    width: 30px;
+}
+
+.omnibox-size{
+    width: calc(100vw - 300px);
+}
+
+#mains {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.demo-header{
+    height: 61px;
+}
+webview {
+    width: 100%;
+    height: 100%;
+}
+
+#views{
+    position:relative
+}
+
+.page{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width:100%;
+    height:calc(100vh - 60px)
+}

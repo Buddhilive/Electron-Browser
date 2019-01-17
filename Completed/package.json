@@ -1,0 +1,29 @@
+{
+  "name": "Electron-Browser",
+  "productName": "Electron Browser",
+  "version": "1.0.0",
+  "description": "A Browser made with Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/Buddhilive/Electron-Browser",
+  "keywords": [
+    "Electron",
+    "Browser",
+    "tutorial"
+  ],
+  "author": "Buddhilive",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "~1.6.2",
+    "electron-packager": "^13.0.1",
+    "electron-winstaller": "^2.7.0"
+  },
+  "dependencies": {
+    "electron": "^1.6.2",
+    "jsonfile": "^2.4.0",
+    "material-design-icons": "^3.0.1",
+    "uuid": "^3.0.1"
+  }
+}

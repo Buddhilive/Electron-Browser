@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+        <title>Bookmarks</title>
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+        <link rel="stylesheet" href="node_modules/material-design-icons/iconfont/material-icons.css">
+        <link rel="stylesheet" href="css/material.min.css">
+        <script src="js/jquery.min.js"></script>
+        <style>
+            table, th, td 
+            {
+                border: solid 1px #DDD;
+                border-collapse: collapse;
+                padding: 2px 3px;
+                text-align: left;
+            }
+
+            a:link {
+                text-decoration: none;
+            }
+
+            a:visited {
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: none;
+                color: magenta;
+            }
+
+            a:active {
+                text-decoration: none;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <div class="mdl-layout mdl-js-layout">
+            <table align="center" width="90%" class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+
+                <thead>
+                    <tr>
+                        <th class="mdl-data-table__cell--non-numeric"><h3>Bookmarks</h3></th>
+                    </tr>
+                </thead>
+
+                <tbody id="Table">
+
+                </tbody>
+            </table>
+        </div>
+            <script src="loadbookmarks.js"></script>
+            </body>
+        </html>
