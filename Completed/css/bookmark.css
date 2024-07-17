@@ -1,0 +1,25 @@
+table,
+th,
+td {
+  border: solid 1px #ddd;
+  border-collapse: collapse;
+  padding: 2px 3px;
+  text-align: left;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: magenta;
+}
+
+a:active {
+  text-decoration: none;
+}
